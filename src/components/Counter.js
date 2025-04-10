@@ -7,6 +7,7 @@ const Counter = () => {
   const dispatch = useDispatch();
   const counter = useSelector((state)=>state.counter);
   const show = useSelector((state)=>state.showCounter);
+  //const auth = useSelector((state)=>state.auth)
 
   const incrementHandler=()=>{
     dispatch(counterActions.increment())
